@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="Shortcut Icon" type="image/png" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Shortly Website</title>
+<style>
+    #six{
+        background-image: url('../images/bg-boost-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+</head>
+<body>
+<section id="one">
+    <div class="flex mx-auto my-2 p-6 items-start justify-between lg:mx-8">
+    <div class="flex items-center justify-start space-x-24 ">
+        <img src="images/logo.svg" alt="">
+        <nav class="hidden space-x-7 font-semibold text-slate-400 lg:flex">
+            <p class="hover:text-black cursor-pointer">Features</p>
+            <p class="hover:text-black cursor-pointer">Pricing</p>
+            <p class="hover:text-black cursor-pointer">Resources</p>
+        </nav>
+    </div>
+    <div class="hidden justify-start items-center space-x-7 font-semibold lg:flex">
+        <div class="text-slate-400 hover:text-black cursor-pointer">Login</div>
+        <div class="px-6 py-3 text-white bg-cyan rounded-full hover:text-black cursor-pointer">Sign Up</div>
+    </div>
+    <div class="relative hamburg z-30 lg:hidden" id="hamburg">
+        <span class="hamburg-top"></span>
+        <span class="hamburg-mid"></span>
+        <span class="hamburg-bot"></span>
+    </div>
+    </div>
+    <div id="hamMenu" class="hidden flex-col max-w-xl mx-5 text-white text-xl font-bold items-center p-6 rounded-xl bg-darkViolet space-y-6 md:max-w-4xl md:mx-auto lg:hidden">
+        <p class="hover:text-veryDarkViolet cursor-pointer">Features</p>
+        <p class="hover:text-veryDarkViolet cursor-pointer">Pricing</p>
+        <p class="hover:text-veryDarkViolet cursor-pointer">Resources</p>
+        <div class="border-t border-gray-400 w-full"></div>
+            <div class="hover:text-black mt-5 cursor-pointer">Login</div>
+            <div class="px-6 py-3 text-white bg-cyan rounded-full hover:text-black cursor-pointer">Sign Up</div>
+        </div>  
+</section>
+
+<section id="two">
+    <div class="flex flex-col mx-5 mb-32 pb-16 lg:space-x-5 lg:flex-row-reverse my-10 lg:mx-10">
+        <div class="md:w-180 lg:w-1/2 mx-auto">
+            <img src="./images/illustration-working.svg" class="" alt="">
+        </div>
+        <div class="flex flex-col text-center justify-center-center space-y-10 lg:text-left lg:max-w-xl lg:w-1/2 my-12">
+            <h2 class="text-4xl font-bold md:text-7xl">More than just shorter links</h2>
+            <p class="text-2xl text-slate-400 lg:text-3xl">
+                Build your brand's recognition and get detailed insights on how your links are performing.
+            </p>
+            <div class="mx-auto lg:mx-0">
+                <a href="" class="px-12 py-5 text-2xl font-bold text-center text-white bg-cyan rounded-full hover:opacity-70">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="three" class="relative bg-gray-100">
+    <div class="max-w-4xl mx-auto p-6 space-y-6">
+   <form id="inp" class="relative flex flex-col w-full rounded-lg items-center space-y-5 -mt-20 p-10 justify-between bg-darkViolet md:flex-row md:space-y-0 md:space-x-3">
+    <input type="text" id="inpTxt"  class="flex-1 border-2 focus:outline-none rounded-lg p-3 placeholder:text-yellow-500" placeholder="Enter your URL">
+    <div>
+        <button class="px-10 py-3 rounded-lg text-white font-bold bg-cyan hover:bg-cyanLight hover:text-black">Shorten it</button>
+    </div>
+    <p class="absolute text-red italic bottom-2 left-8" id="error"></p>
+   </form>
+   <div class="flex flex-col p-7 bg-white text-md space-y-3 items-center justify-between rounded-lg md:space-y-0 md:flex-row">
+    <a href="" class="text-md font-semibold">https://frontendmentor.io</a>
+    <div class="flex flex-col items-center space-y-3 md:space-y-0 md:space-x-3 md:flex-row">
+        <a href="" class="text-cyan font-semibold">https://rel.ink/k4IKyk</a>
+        <a href="" class="text-white px-5 py-2 rounded-lg bg-cyan hover:bg-cyanLight hover:text-black">Copy</a>
+    </div>
+    </div>
+    <div class="flex flex-col p-7 bg-white text-md space-y-3 items-center justify-between rounded-lg md:space-y-0 md:flex-row">
+        <a href="" class="text-md font-semibold">https://twitter.com/frontendmentor</a>
+        <div class="flex flex-col items-center space-y-3 md:space-y-0 md:space-x-3 md:flex-row">
+            <a href="" class="text-cyan font-semibold">https://rel.ink/gxOXp9</a>
+            <a href="" class="text-white px-5 py-2 rounded-lg bg-darkViolet hover:bg-veryDarkBlue hover:text-black">Copy</a>
+        </div>
+        </div>
+        <div class="flex flex-col p-7 bg-white text-md space-y-3 items-center justify-between rounded-lg md:space-y-0 md:flex-row">
+            <a href="" class="text-md font-semibold">https://linkedin.com/frontend-mentor</a>
+            <div class="flex flex-col items-center space-y-3 md:space-y-0 md:space-x-3 md:flex-row">
+                <a href="" class="text-cyan font-semibold">https://rel.ink/gob3X9</a>
+                <a href="" class="text-white px-5 py-2 rounded-lg bg-cyan hover:bg-cyanLight hover:text-black">Copy</a>
+        </div>
+        </div>
+    </div>
+</section>
+<section id="four" class="bg-gray-100 pt-20 pb-28">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col justify-center text-center items-center space-y-5">
+            <h2 class="text-4xl font-bold">Advanced Statistics</h2>
+            <p class="max-w-sm mx-5 text-gray-400 md:mx-0">Track how your links are performing across the web with our advanced statistics dashboard.</p>
+        </div>
+    </div>
+</section>
+
+<section id="five" class="pb-32 bg-slate-100">
+<div class="relative flex flex-col items-start px-8 mx-auto md:flex-row md:space-x-8 md:mx-8">
+<div class="hidden absolute h-3 w-3/4 top-28 left-16 bg-cyan md:block"></div>
+<div class="absolute block w-3 h-3/4 top-16 left-1/2 -ml-1 bg-cyan md:hidden"></div>
+
+<div class="relative flex flex-col p-6 space-y-5 rounded-lg bg-white md:w-1/3">
+    <div class="absolute flex justify-center items-center -ml-10 left-1/2 md:left-16 -top-10 p-5 h-20 w-20 rounded-full bg-black">
+        <img src="./images/icon-brand-recognition.svg" alt="">
+    </div>
+    <p class="text-xl font-bold pt-5 text-center md:text-left md:text-2xl">Brand Recognition</p>
+    <p class="text-lg text-gray-400 text-center md:text-left">Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
+</div>
+
+<div class="relative flex flex-col p-6 mt-20 space-y-6 bg-white rounded-lg md:mt-8 md:w-1/3 ">
+    <div class="absolute flex justify-center items-center -ml-10 left-1/2 md:left-16 -top-10 p-5 h-20 w-20 rounded-full bg-black">
+        <img src="./images/icon-detailed-records.svg" alt="">
+    </div>
+    <p class="text-xl font-bold pt-5 text-center md:text-left md:text-2xl">Detailed Records</p>
+    <p class="text-lg text-gray-400 text-center md:text-left">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+</div>
+
+<div class="relative flex flex-col p-6 space-y-6 mt-20 bg-white rounded-lg md:mt-16 md:w-1/3">
+    <div class="absolute flex justify-center  items-center -ml-10 left-1/2 md:left-16 -top-10 p-5 h-20 w-20 rounded-full bg-black">
+        <img src="./images/icon-fully-customizable.svg" alt="">
+    </div>
+    <p class="text-xl pt-5 font-bold text-center md:text-left md:text-2xl">Fully Customizable</p>
+    <p class="text-lg text-gray-400 text-center md:text-left">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+</div>
+</div>
+</section>
+
+<section id="six" class="bg-darkViolet py-32">
+    <div class="flex flex-col items-center justify-center space-y-5">
+        <h2 class="font-bold text-4xl text-white text-center">Boost your links today</h2>
+            <a href="" class="px-10 py-5 text-xl font-bold text-center text-white bg-cyan rounded-full hover:opacity-70">Get Started</a>
+    </div>
+</section>
+
+<footer class="bg-veryDarkViolet">
+    <div class="flex flex-col mx-auto items-center justify-between p-8 space-y-10 md:space-y-0 md:space-x-10 md:flex-row">
+      <div> <img src="./images/logo.svg" alt=""> </div>
+
+      <div class="flex flex-col justify-center space-y-6 md:flex-row md:space-y-0 md:space-x-10">
+        <div class="flex flex-col space-y-3">
+            <h6 class="text-white py-3 font-bold text-center md:text-left">Features</h6>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Link Shortening</a>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Branded Links</a>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Analytics</a>
+        </div>
+        <div class="flex flex-col space-y-3 ">
+            <h6 class="text-white py-3 font-bold text-center md:text-left">Resources</h6>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Blog</a>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Developer</a>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Support</a>
+        </div>
+        <div class="flex flex-col space-y-3 ">
+            <h6 class="text-white py-3 font-bold text-center md:text-left">Company</h6>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">About</a>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Our Team</a>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Careers</a>
+            <a href="" class="text-gray-400 hover:text-cyan text-center md:text-left">Contacts</a>
+        </div>
+      </div>
+    <div class="flex flex-col items-center space-y-5">
+    <div class="flex justify-start space-x-5">
+       <a href="https://www.facebook.com/Olowofenira"><img src="./images/icon-facebook.svg" class="ficon" alt=""></a>
+       <a href="https://www.instagram.com/heedrhiss/"><img src="./images/icon-instagram.svg" class="ficon" alt=""></a>
+       <a href="https://twitter.com/Heedrhiss"><img src="./images/icon-twitter.svg" class="ficon" alt=""></a>
+       <a href=""><img src="./images/icon-pinterest.svg" class="ficon" alt=""></a>
+    </div>
+    <h6 class="text-gray-400 italic">&copy; Heedrhiss 2023. <br class="md:hidden"> All rights reserved.</h6>
+    </div>
+    </div>
+</footer>
+</body>
+<script>
+const inp= document.querySelector('#inp');
+const errMsg= document.querySelector('#error');
+const inpTxt=   document.getElementById('inpTxt');
+const hamburg=   document.getElementById('hamburg');
+const menu=   document.getElementById('hamMenu');
+
+inp.addEventListener('submit', formvalidate);
+
+hamburg.addEventListener('click',()=>{
+    hamburg.classList.toggle('active');
+    menu.classList.toggle('flex');
+    menu.classList.toggle('hidden');
+})
+
+function validURL(str) {
+  var pattern = new RegExp(
+    '^(https?:\\/\\/)?' + // protocol
+      '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' +
+      '((\\d{1,3}\\.){3}\\d{1,3}))' +
+      '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' +
+      '(\\?[;&a-z\\d%_.~+=-]*)?' +
+      '(\\#[-a-z\\d_]*)?$',
+    'i'
+  )
+  return !!pattern.test(str)
+}
+
+function formvalidate(e){
+    e.preventDefault()    
+    if(inpTxt.value==""){
+        errMsg.textContent= "Field is empty, Please enter a URL."
+        inpTxt.classList.remove('border-green-400');
+        inpTxt.classList.add('border-red');
+        
+    }
+    else if(!validURL(inpTxt.value)){
+        errMsg.textContent= "Please enter a valid URL."
+        inpTxt.classList.remove('border-green-400');
+        inpTxt.classList.add('border-red');
+       
+    }else{
+        errMsg.textContent= ""
+        inpTxt.classList.remove('border-red');
+        inpTxt.classList.add('border-green-400');
+    
+    }
+    }
+
+</script>
+</html>
